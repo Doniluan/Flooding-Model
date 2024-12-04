@@ -5,7 +5,7 @@ import pandas as pd
 def get_variaveis_SP2023():
 ## Criando DataFrames que serão Agrupados (SP)
 
-    Braganca = pd.read_csv('Ambiente de teste-treinamento\SP_BP_tratado')
+    Braganca = pd.read_csv('Ambiente de teste-treinamento/SP_BP_tratado')
     BaseBraganca = Braganca [[
         'Dia',
         'Precipitação (mm)',
@@ -19,7 +19,7 @@ def get_variaveis_SP2023():
     ]]
 
 
-    Bertioga = pd.read_csv('Ambiente de teste-treinamento\SP_Bertioga_tratado')
+    Bertioga = pd.read_csv('Ambiente de teste-treinamento/SP_Bertioga_tratado')
     BaseBertioga = Bertioga [[
         'Dia',
         'Precipitação (mm)',
@@ -33,7 +33,7 @@ def get_variaveis_SP2023():
     ]]
 
 
-    Barueri = pd.read_csv('Ambiente de teste-treinamento\SP_Barueri_tratado')
+    Barueri = pd.read_csv('Ambiente de teste-treinamento/SP_Barueri_tratado')
     BaseBarueri = Barueri [[
         'Dia',
         'Precipitação (mm)',
@@ -47,7 +47,7 @@ def get_variaveis_SP2023():
     ]]
 
 
-    Iguape = pd.read_csv('Ambiente de teste-treinamento\SP_Iguapê_tratado')
+    Iguape = pd.read_csv('Ambiente de teste-treinamento/SP_Iguapê_tratado')
     BaseIguape = Iguape [[
         'Dia',
         'Precipitação (mm)',
@@ -60,7 +60,7 @@ def get_variaveis_SP2023():
         'Risco alagamento',
     ]]
 
-    Taubate = pd.read_csv('Ambiente de teste-treinamento\SP_Taubate_tratado')
+    Taubate = pd.read_csv('Ambiente de teste-treinamento/SP_Taubate_tratado')
     BaseTaubate = Taubate [[
         'Dia',
         'Precipitação (mm)',
@@ -73,7 +73,7 @@ def get_variaveis_SP2023():
         'Risco alagamento',
     ]]
 
-    SP = pd.read_csv('Ambiente de teste-treinamento\SP_tratado')
+    SP = pd.read_csv('Ambiente de teste-treinamento/SP_tratado')
     BaseInterlagos = SP [[
         'Dia',
         'Precipitação (mm)',
@@ -87,7 +87,7 @@ def get_variaveis_SP2023():
     ]]
 
 
-    SLP = pd.read_csv('Ambiente de teste-treinamento\SP_SLP_tratado')
+    SLP = pd.read_csv('Ambiente de teste-treinamento/SP_SLP_tratado')
     BaseSLP = SLP [[
         'Dia',
         'Precipitação (mm)',
@@ -100,7 +100,7 @@ def get_variaveis_SP2023():
         'Risco alagamento',
     ]]
 
-    Registro = pd.read_csv('Ambiente de teste-treinamento\SP_Registro_tratado')
+    Registro = pd.read_csv('Ambiente de teste-treinamento/SP_Registro_tratado')
     BaseRegistro = Registro [[
         'Dia',
         'Precipitação (mm)',
@@ -113,7 +113,7 @@ def get_variaveis_SP2023():
         'Risco alagamento',
     ]]
 
-    Piracicaba = pd.read_csv('Ambiente de teste-treinamento\SP_Piracicaba_tratado')
+    Piracicaba = pd.read_csv('Ambiente de teste-treinamento/SP_Piracicaba_tratado')
     BasePira = Piracicaba [[
         'Dia',
         'Precipitação (mm)',
@@ -166,7 +166,7 @@ def get_variaveis_SP2023():
 def get_variaveis_RJ2023():
 
     ## Criando DataFrames que serão Agrupados (RJ)
-    Duque_Caxias = pd.read_csv('Ambiente de teste-treinamento\RJ_DQC_tratado')
+    Duque_Caxias = pd.read_csv('Ambiente de teste-treinamento/RJ_DQC_tratado')
     BaseDuque = Duque_Caxias [[
         'Dia',
         'Precipitação (mm)',
@@ -180,7 +180,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Goytacazes = pd.read_csv('Ambiente de teste-treinamento\RJ_Goytacazes_tratado')
+    Goytacazes = pd.read_csv('Ambiente de teste-treinamento/RJ_Goytacazes_tratado')
     BaseGoytacazes = Goytacazes [[
         'Dia',
         'Precipitação (mm)',
@@ -194,7 +194,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Angra_dos_Reis = pd.read_csv('Ambiente de teste-treinamento\RJ_AngraReis_tratado')
+    Angra_dos_Reis = pd.read_csv('Ambiente de teste-treinamento/RJ_AngraReis_tratado')
     BaseAngra = Angra_dos_Reis [[
         'Dia',
         'Precipitação (mm)',
@@ -208,7 +208,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Macae = pd.read_csv('Ambiente de teste-treinamento\RJ_Macae_tratado')
+    Macae = pd.read_csv('Ambiente de teste-treinamento/RJ_Macae_tratado')
     BaseMacae = Macae [[
         'Dia',
         'Precipitação (mm)',
@@ -222,7 +222,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Niteroi = pd.read_csv('Ambiente de teste-treinamento\RJ_Niteroi_tratado')
+    Niteroi = pd.read_csv('Ambiente de teste-treinamento/RJ_Niteroi_tratado')
     BaseNiteroi = Niteroi [[
         'Dia',
         'Precipitação (mm)',
@@ -236,7 +236,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Nova_Friburgo = pd.read_csv('Ambiente de teste-treinamento\RJ_NovaFriburgo_tratado')
+    Nova_Friburgo = pd.read_csv('Ambiente de teste-treinamento/RJ_NovaFriburgo_tratado')
     BaseNovaFriburgo = Nova_Friburgo [[
         'Dia',
         'Precipitação (mm)',
@@ -250,7 +250,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Paraty = pd.read_csv('Ambiente de teste-treinamento\RJ_Paraty_tratado')
+    Paraty = pd.read_csv('Ambiente de teste-treinamento/RJ_Paraty_tratado')
     BaseParaty = Paraty [[
         'Dia',
         'Precipitação (mm)',
@@ -264,7 +264,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Rio_Claro = pd.read_csv('Ambiente de teste-treinamento\RJ_RioClaro_tratado')
+    Rio_Claro = pd.read_csv('Ambiente de teste-treinamento/RJ_RioClaro_tratado')
     BaseRioClaro = Rio_Claro [[
         'Dia',
         'Precipitação (mm)',
@@ -278,7 +278,7 @@ def get_variaveis_RJ2023():
     ]]
 
 
-    Teresopolis = pd.read_csv('Ambiente de teste-treinamento\RJ_Teresopolis_tratado')
+    Teresopolis = pd.read_csv('Ambiente de teste-treinamento/RJ_Teresopolis_tratado')
     BaseTeresopolis = Teresopolis [[
         'Dia',
         'Precipitação (mm)',
@@ -336,7 +336,7 @@ def get_variaveis_RJ2023():
 def get_variaveis_MG2023():
 
     ## Criando DataFrames que serão Agrupados (MG)
-    Belo_Horizonte = pd.read_csv('Ambiente de teste-treinamento\MG_Belo_Horizonte_tratado')
+    Belo_Horizonte = pd.read_csv('Ambiente de teste-treinamento/MG_Belo_Horizonte_tratado')
     BaseBH = Belo_Horizonte [[
         'Dia',
         'Precipitação (mm)',
@@ -349,7 +349,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Caldas = pd.read_csv('Ambiente de teste-treinamento\MG_Caldas_tratado')
+    Caldas = pd.read_csv('Ambiente de teste-treinamento/MG_Caldas_tratado')
     BaseCaldas = Caldas [[
         'Dia',
         'Precipitação (mm)',
@@ -362,7 +362,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Juiz_de_Fora = pd.read_csv('Ambiente de teste-treinamento\MG_JFC_tratado')
+    Juiz_de_Fora = pd.read_csv('Ambiente de teste-treinamento/MG_JFC_tratado')
     BaseJuiz = Juiz_de_Fora[[
         'Dia',
         'Precipitação (mm)',
@@ -375,7 +375,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Machado = pd.read_csv('Ambiente de teste-treinamento\MG_Machado_tratado')
+    Machado = pd.read_csv('Ambiente de teste-treinamento/MG_Machado_tratado')
     BaseMachado = Machado[[
         'Dia',
         'Precipitação (mm)',
@@ -388,7 +388,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Monte_verder = pd.read_csv('Ambiente de teste-treinamento\MG_MonVerde_tratado')
+    Monte_verder = pd.read_csv('Ambiente de teste-treinamento/MG_MonVerde_tratado')
     BaseMonte = Monte_verder[[
         'Dia',
         'Precipitação (mm)',
@@ -401,7 +401,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Passa_quatro = pd.read_csv('Ambiente de teste-treinamento\MG_P4_tratado')
+    Passa_quatro = pd.read_csv('Ambiente de teste-treinamento/MG_P4_tratado')
     BaseP4 = Passa_quatro[[
         'Dia',
         'Precipitação (mm)',
@@ -414,7 +414,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Sao_Joao = pd.read_csv('Ambiente de teste-treinamento\MG_Sao_Joao_del_Rei_tratado')
+    Sao_Joao = pd.read_csv('Ambiente de teste-treinamento/MG_Sao_Joao_del_Rei_tratado')
     BaseSJ = Sao_Joao[[
         'Dia',
         'Precipitação (mm)',
@@ -427,7 +427,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Teofilo = pd.read_csv('Ambiente de teste-treinamento\MG_Teofilo_Otoni_tratado')
+    Teofilo = pd.read_csv('Ambiente de teste-treinamento/MG_Teofilo_Otoni_tratado')
     BaseTeofilo = Teofilo[[
         'Dia',
         'Precipitação (mm)',
@@ -440,7 +440,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Uberaba = pd.read_csv('Ambiente de teste-treinamento\MG_Uberaba_tratado')
+    Uberaba = pd.read_csv('Ambiente de teste-treinamento/MG_Uberaba_tratado')
     BaseUberaba = Uberaba[[
         'Dia',
         'Precipitação (mm)',
@@ -453,7 +453,7 @@ def get_variaveis_MG2023():
         'Risco alagamento',
     ]]
 
-    Uberlandia = pd.read_csv('Ambiente de teste-treinamento\MG_Uberlandia_tratado')
+    Uberlandia = pd.read_csv('Ambiente de teste-treinamento/MG_Uberlandia_tratado')
     BaseUberlandia = Uberlandia[[
         'Dia',
         'Precipitação (mm)',
@@ -513,7 +513,7 @@ def get_variaveis_MG2023():
 def get_variaveis_SC2023():
 
     ## Criando DataFrames que serão Agrupados (SC)
-    Bom_Jardim = pd.read_csv('Ambiente de teste-treinamento\SC_Bom Jardim da Serra_tratado')
+    Bom_Jardim = pd.read_csv('Ambiente de teste-treinamento/SC_Bom Jardim da Serra_tratado')
     BaseBom_Jardim = Bom_Jardim [[
         'Dia',
         'Precipitação (mm)',
@@ -527,7 +527,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Florianopolis = pd.read_csv('Ambiente de teste-treinamento\SC_Florianopolis_tratado')
+    Florianopolis = pd.read_csv('Ambiente de teste-treinamento/SC_Florianopolis_tratado')
     BaseFlorianopolis = Florianopolis [[
         'Dia',
         'Precipitação (mm)',
@@ -541,7 +541,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Indaial = pd.read_csv('Ambiente de teste-treinamento\SC_Indaial_tratado')
+    Indaial = pd.read_csv('Ambiente de teste-treinamento/SC_Indaial_tratado')
     BaseIndaial = Indaial [[
         'Dia',
         'Precipitação (mm)',
@@ -555,7 +555,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Itajai = pd.read_csv('Ambiente de teste-treinamento\SC_Itajai_tratado')
+    Itajai = pd.read_csv('Ambiente de teste-treinamento/SC_Itajai_tratado')
     BaseItajai = Itajai [[
         'Dia',
         'Precipitação (mm)',
@@ -569,7 +569,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Itapoa = pd.read_csv('Ambiente de teste-treinamento\SC_Itapoa_tratado')
+    Itapoa = pd.read_csv('Ambiente de teste-treinamento/SC_Itapoa_tratado')
     BaseItapoa = Itapoa [[
         'Dia',
         'Precipitação (mm)',
@@ -583,7 +583,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Ituporanga = pd.read_csv('Ambiente de teste-treinamento\SC_Ituporanga_tratado')
+    Ituporanga = pd.read_csv('Ambiente de teste-treinamento/SC_Ituporanga_tratado')
     BaseItuporanga = Ituporanga [[
         'Dia',
         'Precipitação (mm)',
@@ -597,7 +597,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Rio_Negro = pd.read_csv('Ambiente de teste-treinamento\SC_Rio Negro_tratado')
+    Rio_Negro = pd.read_csv('Ambiente de teste-treinamento/SC_Rio Negro_tratado')
     BaseRio_Negro = Rio_Negro [[
         'Dia',
         'Precipitação (mm)',
@@ -611,7 +611,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Rio_Campo = pd.read_csv('Ambiente de teste-treinamento\SC_Rio do Campo_tratado')
+    Rio_Campo = pd.read_csv('Ambiente de teste-treinamento/SC_Rio do Campo_tratado')
     BaseRio_Campo = Rio_Campo [[
         'Dia',
         'Precipitação (mm)',
@@ -625,7 +625,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Pinhais = pd.read_csv('Ambiente de teste-treinamento\SC_São José dos Pinhais_tratado')
+    Pinhais = pd.read_csv('Ambiente de teste-treinamento/SC_São José dos Pinhais_tratado')
     BasePinhais = Pinhais [[
         'Dia',
         'Precipitação (mm)',
@@ -639,7 +639,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Urussanga = pd.read_csv('Ambiente de teste-treinamento\SC_Urussanga_tratado')
+    Urussanga = pd.read_csv('Ambiente de teste-treinamento/SC_Urussanga_tratado')
     BaseUrussanga = Urussanga [[
         'Dia',
         'Precipitação (mm)',
@@ -653,7 +653,7 @@ def get_variaveis_SC2023():
     ]]
 
 
-    Xanxare = pd.read_csv('Ambiente de teste-treinamento\SC_Xanxere_tratado')
+    Xanxare = pd.read_csv('Ambiente de teste-treinamento/SC_Xanxere_tratado')
     BaseXanxare  = Xanxare [[
         'Dia',
         'Precipitação (mm)',
@@ -712,7 +712,7 @@ def get_variaveis_SC2023():
 def get_variaveis_RS2023():
 
     ## Criando DataFrames que serão Agrupados (RS)
-    Alegrete = pd.read_csv('Ambiente de teste-treinamento\RS_Alegrete_tratado')
+    Alegrete = pd.read_csv('Ambiente de teste-treinamento/RS_Alegrete_tratado')
     BaseAlegrete = Alegrete [[
         'Dia',
         'Precipitação (mm)',
@@ -725,7 +725,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    CBom = pd.read_csv('Ambiente de teste-treinamento\RS_CBom_tratado')
+    CBom = pd.read_csv('Ambiente de teste-treinamento/RS_CBom_tratado')
     BaseCampoBom = CBom [[
         'Dia',
         'Precipitação (mm)',
@@ -738,7 +738,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    CaLe = pd.read_csv('Ambiente de teste-treinamento\RS_CaLe_tratado')
+    CaLe = pd.read_csv('Ambiente de teste-treinamento/RS_CaLe_tratado')
     BaseCapaoLeao = CaLe [[
         'Dia',
         'Precipitação (mm)',
@@ -751,7 +751,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    camaqua = pd.read_csv('Ambiente de teste-treinamento\RS_Camaqua_tratado')
+    camaqua = pd.read_csv('Ambiente de teste-treinamento/RS_Camaqua_tratado')
     BaseCamaqua = camaqua [[
         'Dia',
         'Precipitação (mm)',
@@ -764,7 +764,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Cangucu = pd.read_csv('Ambiente de teste-treinamento\RS_Cangucu_tratado')
+    Cangucu = pd.read_csv('Ambiente de teste-treinamento/RS_Cangucu_tratado')
     BaseCangucu = Cangucu [[
         'Dia',
         'Precipitação (mm)',
@@ -777,7 +777,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Dom_Pedritoo = pd.read_csv('Ambiente de teste-treinamento\RS_Dom Pedrito_tratado')
+    Dom_Pedritoo = pd.read_csv('Ambiente de teste-treinamento/RS_Dom Pedrito_tratado')
     BaseDomPedrito = Dom_Pedritoo [[
         'Dia',
         'Precipitação (mm)',
@@ -790,7 +790,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Jaguarao = pd.read_csv('Ambiente de teste-treinamento\RS_Jaguarão_tratado')
+    Jaguarao = pd.read_csv('Ambiente de teste-treinamento/RS_Jaguarão_tratado')
     BaseJaguarao = Jaguarao [[
         'Dia',
         'Precipitação (mm)',
@@ -803,7 +803,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Mostardas = pd.read_csv('Ambiente de teste-treinamento\RS_Mostardas_tratado')
+    Mostardas = pd.read_csv('Ambiente de teste-treinamento/RS_Mostardas_tratado')
     BaseMostardas = Mostardas [[
         'Dia',
         'Precipitação (mm)',
@@ -816,7 +816,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    pAlegre = pd.read_csv('Ambiente de teste-treinamento\RS_PAlegre_tratado')
+    pAlegre = pd.read_csv('Ambiente de teste-treinamento/RS_PAlegre_tratado')
     BasePortoAlegre = pAlegre [[
         'Dia',
         'Precipitação (mm)',
@@ -829,7 +829,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Sao_Gabriel = pd.read_csv('Ambiente de teste-treinamento\RS_São Gabriel_tratado')
+    Sao_Gabriel = pd.read_csv('Ambiente de teste-treinamento/RS_São Gabriel_tratado')
     BaseSaoGabriel = Sao_Gabriel [[
         'Dia',
         'Precipitação (mm)',
@@ -842,7 +842,7 @@ def get_variaveis_RS2023():
         'Risco alagamento',
     ]]
 
-    Uruguaiana = pd.read_csv('Ambiente de teste-treinamento\RS_Uruguaiana_tratado')
+    Uruguaiana = pd.read_csv('Ambiente de teste-treinamento/RS_Uruguaiana_tratado')
     BaseUruguaiana = Uruguaiana [[
         'Dia',
         'Precipitação (mm)',
@@ -903,7 +903,7 @@ def get_variaveis_RS2023():
 def get_variaveis_PR2023():
 
         ## Criando DataFrames que serão Agrupados (PR)
-    Colombo = pd.read_csv('Ambiente de teste-treinamento\PR_Colombo_tratado')
+    Colombo = pd.read_csv('Ambiente de teste-treinamento/PR_Colombo_tratado')
     BaseColombo = Colombo [[
         'Dia',
         'Precipitação (mm)',
@@ -916,7 +916,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Curitiba = pd.read_csv('Ambiente de teste-treinamento\PR_Curitiba_tratado')
+    Curitiba = pd.read_csv('Ambiente de teste-treinamento/PR_Curitiba_tratado')
     BaseCuritiba = Curitiba [[
         'Dia',
         'Precipitação (mm)',
@@ -929,7 +929,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Dois_Vizinhos = pd.read_csv('Ambiente de teste-treinamento\PR_Dois Vizinhos_tratado')
+    Dois_Vizinhos = pd.read_csv('Ambiente de teste-treinamento/PR_Dois Vizinhos_tratado')
     BaseDois_Vizinhos = Dois_Vizinhos [[
         'Dia',
         'Precipitação (mm)',
@@ -942,7 +942,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    General_carneiro = pd.read_csv('Ambiente de teste-treinamento\PR_General Carneiro_tratado')
+    General_carneiro = pd.read_csv('Ambiente de teste-treinamento/PR_General Carneiro_tratado')
     BaseGeneral_Carneiro = General_carneiro [[
         'Dia',
         'Precipitação (mm)',
@@ -955,7 +955,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Goiania = pd.read_csv('Ambiente de teste-treinamento\PR_Goiânia_tratado')
+    Goiania = pd.read_csv('Ambiente de teste-treinamento/PR_Goiânia_tratado')
     BaseGoiania = Goiania [[
         'Dia',
         'Precipitação (mm)',
@@ -968,7 +968,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Icaraima = pd.read_csv('Ambiente de teste-treinamento\PR_Icaraima_tratado')
+    Icaraima = pd.read_csv('Ambiente de teste-treinamento/PR_Icaraima_tratado')
     BaseIcaraima = Icaraima [[
         'Dia',
         'Precipitação (mm)',
@@ -981,7 +981,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Joao_Tavares = pd.read_csv('Ambiente de teste-treinamento\PR_João_Tavares_tratado')
+    Joao_Tavares = pd.read_csv('Ambiente de teste-treinamento/PR_João_Tavares_tratado')
     BaseJoao_Tavares = Joao_Tavares [[
         'Dia',
         'Precipitação (mm)',
@@ -994,7 +994,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Maringa = pd.read_csv('Ambiente de teste-treinamento\PR_Maringá_tratado')
+    Maringa = pd.read_csv('Ambiente de teste-treinamento/PR_Maringá_tratado')
     BaseMaringa = Maringa [[
         'Dia',
         'Precipitação (mm)',
@@ -1007,7 +1007,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Morretes = pd.read_csv('Ambiente de teste-treinamento\PR_Morro_tratado')
+    Morretes = pd.read_csv('Ambiente de teste-treinamento/PR_Morro_tratado')
     BaseMorretes = Morretes [[
         'Dia',
         'Precipitação (mm)',
@@ -1020,7 +1020,7 @@ def get_variaveis_PR2023():
         'Risco alagamento',
     ]]
 
-    Sao_Matheus = pd.read_csv('Ambiente de teste-treinamento\PR_São Mateus do Sul_tratado')
+    Sao_Matheus = pd.read_csv('Ambiente de teste-treinamento/PR_São Mateus do Sul_tratado')
     BaseSao_Matheus = Sao_Matheus [[
         'Dia',
         'Precipitação (mm)',
