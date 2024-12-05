@@ -8,6 +8,7 @@ from desempenho_p_estado import plot_desempenho_por_estado
 from vali_cruzada import plot_validacao_cruzada
 from aprendizado_2023 import plot_aprendizado_2023
 from aprendizado_2024 import plot_aprendizado_2024
+from erro_absoluto import erro_absoluto_model
 
 # Título do aplicativo
 st.title("Sistema de Previsão de Enchentes")
@@ -26,6 +27,7 @@ menu = st.sidebar.selectbox(
         "Validação Cruzada",
         "Curva de Aprendizado 2023",
         "Curva de Aprendizado 2024",
+        "Erro Absoluto",
     ]
 )
 
@@ -56,3 +58,6 @@ elif menu == "Curva de Aprendizado 2023":
 
 elif menu == "Curva de Aprendizado 2024":
     plot_aprendizado_2024()
+
+elif menu == "Erro Absoluto":
+    erro_absoluto_model()
